@@ -307,7 +307,6 @@ func (sc *ServerConn) handleRequest(req *base.Request) (*base.Response, error) {
 			Header:     base.Header{},
 		}, liberrors.ErrServerCSeqMissing{}
 	}
-
 	sxID := getSessionID(req.Header)
 
 	var path string
@@ -513,9 +512,13 @@ func (sc *ServerConn) handleRequestInSession(
 		if sxID != "" {
 			// the connection can't communicate with two sessions at once.
 			if sxID != sc.session.secretID {
-				return &base.Response{
-					StatusCode: base.StatusBadRequest,
-				}, liberrors.ErrServerLinkedToOtherSession{}
+				//Allow matching of first UUID group
+				subu := strings.Split(sc.session.secretID, "-")
+				if sxID != subu[0] {
+					return &base.Response{
+						StatusCode: base.StatusBadRequest,
+					}, liberrors.ErrServerLinkedToOtherSession{}
+				}
 			}
 		}
 
