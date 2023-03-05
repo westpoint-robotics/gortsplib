@@ -10,12 +10,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/aler9/gortsplib/v2/pkg/base"
-	"github.com/aler9/gortsplib/v2/pkg/bytecounter"
-	"github.com/aler9/gortsplib/v2/pkg/conn"
-	"github.com/aler9/gortsplib/v2/pkg/liberrors"
-	"github.com/aler9/gortsplib/v2/pkg/media"
-	"github.com/aler9/gortsplib/v2/pkg/url"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
+	"github.com/westpoint-robotics/gortsplib/pkg/bytecounter"
+	"github.com/westpoint-robotics/gortsplib/pkg/conn"
+	"github.com/westpoint-robotics/gortsplib/pkg/liberrors"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/url"
 )
 
 func getSessionID(header base.Header) string {

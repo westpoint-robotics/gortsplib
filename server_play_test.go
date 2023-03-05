@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/ipv4"
 
-	"github.com/aler9/gortsplib/v2/pkg/base"
-	"github.com/aler9/gortsplib/v2/pkg/conn"
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/headers"
-	"github.com/aler9/gortsplib/v2/pkg/media"
-	"github.com/aler9/gortsplib/v2/pkg/sdp"
-	"github.com/aler9/gortsplib/v2/pkg/url"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
+	"github.com/westpoint-robotics/gortsplib/pkg/conn"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/headers"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/sdp"
+	"github.com/westpoint-robotics/gortsplib/pkg/url"
 )
 
 func multicastCapableIP(t *testing.T) string {

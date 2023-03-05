@@ -6,8 +6,8 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/bits"
-	"github.com/aler9/gortsplib/v2/pkg/codecs/mpeg4audio"
+	"github.com/westpoint-robotics/gortsplib/pkg/bits"
+	"github.com/westpoint-robotics/gortsplib/pkg/codecs/mpeg4audio"
 )
 
 const (

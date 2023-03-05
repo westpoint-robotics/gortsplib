@@ -9,8 +9,8 @@ import (
 
 	psdp "github.com/pion/sdp/v3"
 
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/url"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/url"
 )
 
 func getControlAttribute(attributes []psdp.Attribute) string {

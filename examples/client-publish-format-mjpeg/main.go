@@ -4,10 +4,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/aler9/gortsplib/v2"
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/media"
 	"github.com/pion/rtp"
+	"github.com/westpoint-robotics/gortsplib"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
 )
 
 // This example shows how to

@@ -1,17 +1,17 @@
 
 # gortsplib
 
-[![Test](https://github.com/aler9/gortsplib/workflows/test/badge.svg)](https://github.com/aler9/gortsplib/actions?query=workflow:test)
-[![Lint](https://github.com/aler9/gortsplib/workflows/lint/badge.svg)](https://github.com/aler9/gortsplib/actions?query=workflow:lint)
-[![Go Report Card](https://goreportcard.com/badge/github.com/aler9/gortsplib)](https://goreportcard.com/report/github.com/aler9/gortsplib)
+[![Test](https://github.com/westpoint-robotics/gortsplib/workflows/test/badge.svg)](https://github.com/westpoint-robotics/gortsplib/actions?query=workflow:test)
+[![Lint](https://github.com/westpoint-robotics/gortsplib/workflows/lint/badge.svg)](https://github.com/westpoint-robotics/gortsplib/actions?query=workflow:lint)
+[![Go Report Card](https://goreportcard.com/badge/github.com/westpoint-robotics/gortsplib)](https://goreportcard.com/report/github.com/westpoint-robotics/gortsplib)
 [![CodeCov](https://codecov.io/gh/aler9/gortsplib/branch/main/graph/badge.svg)](https://codecov.io/gh/aler9/gortsplib/branch/main)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/aler9/gortsplib/v2)](https://pkg.go.dev/github.com/aler9/gortsplib/v2#pkg-index)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/westpoint-robotics/gortsplib)](https://pkg.go.dev/github.com/westpoint-robotics/gortsplib#pkg-index)
 
-RTSP 1.0 client and server library for the Go programming language, written for [rtsp-simple-server](https://github.com/aler9/rtsp-simple-server).
+RTSP 1.0 client and server library for the Go programming language, written for [rtsp-simple-server](https://github.com/westpoint-robotics/rtsp-simple-server).
 
 Go &ge; 1.18 is required.
 
-***WARNING: the main branch contains code of the v2 version. The legacy v1 version is hosted in the [v1 branch](https://github.com/aler9/gortsplib/tree/v1).***
+***WARNING: the main branch contains code of the v2 version. The legacy v1 version is hosted in the [v1 branch](https://github.com/westpoint-robotics/gortsplib/tree/v1).***
 
 Features:
 
@@ -104,7 +104,7 @@ In the next months, the repository name will be changed accordingly.
 
 ## API Documentation
 
-https://pkg.go.dev/github.com/aler9/gortsplib/v2#pkg-index
+https://pkg.go.dev/github.com/westpoint-robotics/gortsplib#pkg-index
 
 ## Standards
 
@@ -130,7 +130,7 @@ https://pkg.go.dev/github.com/aler9/gortsplib/v2#pkg-index
 
 Related projects
 
-* rtsp-simple-server https://github.com/aler9/rtsp-simple-server
+* rtsp-simple-server https://github.com/westpoint-robotics/rtsp-simple-server
 * pion/sdp (SDP library used internally) https://github.com/pion/sdp
 * pion/rtp (RTP library used internally) https://github.com/pion/rtp
 * pion/rtcp (RTCP library used internally) https://github.com/pion/rtcp

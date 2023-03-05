@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/aler9/gortsplib/v2"
-	"github.com/aler9/gortsplib/v2/pkg/base"
+	"github.com/westpoint-robotics/gortsplib"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
 )
 
 type server struct {

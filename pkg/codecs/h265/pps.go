@@ -3,8 +3,8 @@ package h265
 import (
 	"fmt"
 
-	"github.com/aler9/gortsplib/v2/pkg/bits"
-	"github.com/aler9/gortsplib/v2/pkg/codecs/h264"
+	"github.com/westpoint-robotics/gortsplib/pkg/bits"
+	"github.com/westpoint-robotics/gortsplib/pkg/codecs/h264"
 )
 
 // PPS is a H265 picture parameter set.

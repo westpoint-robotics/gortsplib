@@ -1,8 +1,8 @@
 package gortsplib
 
 import (
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/rtcpsender"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/rtcpsender"
 )
 
 type serverStreamFormat struct {

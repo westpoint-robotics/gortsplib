@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/sdp"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/sdp"
 )
 
 var casesMedias = []struct {

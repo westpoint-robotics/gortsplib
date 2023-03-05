@@ -7,9 +7,9 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/rtcpreceiver"
-	"github.com/aler9/gortsplib/v2/pkg/rtpreorderer"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/rtcpreceiver"
+	"github.com/westpoint-robotics/gortsplib/pkg/rtpreorderer"
 )
 
 type serverSessionFormat struct {

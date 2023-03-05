@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aler9/gortsplib/v2/pkg/bits"
+	"github.com/westpoint-robotics/gortsplib/pkg/bits"
 )
 
 func getPictureOrderCount(buf []byte, sps *SPS) (uint32, error) {

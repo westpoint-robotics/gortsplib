@@ -1,8 +1,8 @@
 package gortsplib
 
 import (
-	"github.com/aler9/gortsplib/v2/pkg/base"
-	"github.com/aler9/gortsplib/v2/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
 )
 
 // ServerHandler is the interface implemented by all the server handlers.

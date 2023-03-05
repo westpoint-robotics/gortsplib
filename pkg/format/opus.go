@@ -7,7 +7,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/formatdecenc/rtpsimpleaudio"
+	"github.com/westpoint-robotics/gortsplib/pkg/formatdecenc/rtpsimpleaudio"
 )
 
 // Opus is a Opus format.

@@ -3,7 +3,7 @@ package format
 import (
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/formatdecenc/rtpmjpeg"
+	"github.com/westpoint-robotics/gortsplib/pkg/formatdecenc/rtpmjpeg"
 )
 
 // MJPEG is a Motion-JPEG format.

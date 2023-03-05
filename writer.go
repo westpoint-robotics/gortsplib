@@ -1,7 +1,7 @@
 package gortsplib
 
 import (
-	"github.com/aler9/gortsplib/v2/pkg/ringbuffer"
+	"github.com/westpoint-robotics/gortsplib/pkg/ringbuffer"
 )
 
 // this struct contains a queue that allows to detach the routine that is reading a stream
