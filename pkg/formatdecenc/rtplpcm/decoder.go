@@ -6,7 +6,7 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/rtptimedec"
+	"github.com/westpoint-robotics/gortsplib/pkg/rtptimedec"
 )
 
 // Decoder is a RTP/LPCM decoder.

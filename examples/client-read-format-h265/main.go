@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/aler9/gortsplib/v2"
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/formatdecenc/rtph265"
-	"github.com/aler9/gortsplib/v2/pkg/url"
 	"github.com/pion/rtp"
+	"github.com/westpoint-robotics/gortsplib"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/formatdecenc/rtph265"
+	"github.com/westpoint-robotics/gortsplib/pkg/url"
 )
 
 // This example shows how to

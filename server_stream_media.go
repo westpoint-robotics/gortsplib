@@ -7,8 +7,8 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/media"
-	"github.com/aler9/gortsplib/v2/pkg/rtcpsender"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/rtcpsender"
 )
 
 type serverStreamMedia struct {

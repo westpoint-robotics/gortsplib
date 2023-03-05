@@ -13,12 +13,12 @@ import (
 	psdp "github.com/pion/sdp/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aler9/gortsplib/v2/pkg/base"
-	"github.com/aler9/gortsplib/v2/pkg/conn"
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/headers"
-	"github.com/aler9/gortsplib/v2/pkg/media"
-	"github.com/aler9/gortsplib/v2/pkg/sdp"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
+	"github.com/westpoint-robotics/gortsplib/pkg/conn"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/headers"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/sdp"
 )
 
 func invalidURLAnnounceReq(t *testing.T, control string) base.Request {

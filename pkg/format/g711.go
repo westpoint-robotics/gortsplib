@@ -3,7 +3,7 @@ package format
 import (
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/formatdecenc/rtpsimpleaudio"
+	"github.com/westpoint-robotics/gortsplib/pkg/formatdecenc/rtpsimpleaudio"
 )
 
 // G711 is a G711 format, encoded with mu-law or A-law.

@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aler9/gortsplib/v2/pkg/auth"
-	"github.com/aler9/gortsplib/v2/pkg/base"
-	"github.com/aler9/gortsplib/v2/pkg/conn"
-	"github.com/aler9/gortsplib/v2/pkg/headers"
-	"github.com/aler9/gortsplib/v2/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/auth"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
+	"github.com/westpoint-robotics/gortsplib/pkg/conn"
+	"github.com/westpoint-robotics/gortsplib/pkg/headers"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
 )
 
 var serverCert = []byte(`-----BEGIN CERTIFICATE-----

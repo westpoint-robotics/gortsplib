@@ -8,8 +8,8 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/codecs/h264"
-	"github.com/aler9/gortsplib/v2/pkg/rtptimedec"
+	"github.com/westpoint-robotics/gortsplib/pkg/codecs/h264"
+	"github.com/westpoint-robotics/gortsplib/pkg/rtptimedec"
 )
 
 // ErrMorePacketsNeeded is returned when more packets are needed.

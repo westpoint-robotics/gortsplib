@@ -2,7 +2,7 @@
 Package gortsplib is a RTSP 1.0 library for the Go programming language,
 written for rtsp-simple-server.
 
-Examples are available at https://github.com/aler9/gortsplib/tree/master/examples
+Examples are available at https://github.com/westpoint-robotics/gortsplib/tree/master/examples
 */
 package gortsplib
 
@@ -19,16 +19,16 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/auth"
-	"github.com/aler9/gortsplib/v2/pkg/base"
-	"github.com/aler9/gortsplib/v2/pkg/bytecounter"
-	"github.com/aler9/gortsplib/v2/pkg/conn"
-	"github.com/aler9/gortsplib/v2/pkg/format"
-	"github.com/aler9/gortsplib/v2/pkg/headers"
-	"github.com/aler9/gortsplib/v2/pkg/liberrors"
-	"github.com/aler9/gortsplib/v2/pkg/media"
-	"github.com/aler9/gortsplib/v2/pkg/sdp"
-	"github.com/aler9/gortsplib/v2/pkg/url"
+	"github.com/westpoint-robotics/gortsplib/pkg/auth"
+	"github.com/westpoint-robotics/gortsplib/pkg/base"
+	"github.com/westpoint-robotics/gortsplib/pkg/bytecounter"
+	"github.com/westpoint-robotics/gortsplib/pkg/conn"
+	"github.com/westpoint-robotics/gortsplib/pkg/format"
+	"github.com/westpoint-robotics/gortsplib/pkg/headers"
+	"github.com/westpoint-robotics/gortsplib/pkg/liberrors"
+	"github.com/westpoint-robotics/gortsplib/pkg/media"
+	"github.com/westpoint-robotics/gortsplib/pkg/sdp"
+	"github.com/westpoint-robotics/gortsplib/pkg/url"
 )
 
 func isAnyPort(p int) bool {

@@ -3,7 +3,7 @@ package format
 import (
 	"github.com/pion/rtp"
 
-	"github.com/aler9/gortsplib/v2/pkg/formatdecenc/rtpsimpleaudio"
+	"github.com/westpoint-robotics/gortsplib/pkg/formatdecenc/rtpsimpleaudio"
 )
 
 // G722 is a G722 format.
