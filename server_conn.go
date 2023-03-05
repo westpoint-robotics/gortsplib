@@ -4,7 +4,6 @@ import (
 	"context"
 	"crypto/tls"
 	"errors"
-	"fmt"
 	"net"
 	gourl "net/url"
 	"strings"
@@ -308,7 +307,6 @@ func (sc *ServerConn) handleRequest(req *base.Request) (*base.Response, error) {
 			Header:     base.Header{},
 		}, liberrors.ErrServerCSeqMissing{}
 	}
-	fmt.Printf("req: %+v", req)
 	sxID := getSessionID(req.Header)
 
 	var path string
